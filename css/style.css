@@ -1,0 +1,185 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     height: 1070px;
+}
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  margin-left: 15px;
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  background-color: yellow;
+  width: 225px;
+  height: 40px;
+  margin-top: 50px;
+  margin-left: 40%;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+h4 {
+  font-size: 25px;
+  font-weight: bold;
+}
+p {
+  font-size: 20px;
+  padding-top:30px;
+  line-height: 2;
+  padding-bottom: 50px;
+}
+ul {
+  font-size: 20px;
+  padding-top:30px;
+  padding-bottom: 50px;
+  line-height: 2;
+  width: 350px;
+  margin-left: 100px;
+}
+li {
+  margin: 10px;
+  list-style-type: disc;
+}
+img {
+  padding-top: 50px 25px 50px 25px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+
+
+}
+
+#benefits {
+  width: 100%;
+  margin: 30px;
+  padding: 30px;
+  height: 500px;
+  background-color: white;
+
+
+}
+
+#quote {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 2;
+  font-family: arial, sans-serif;
+  letter-spacing: 1px;
+}
+#quote strong {
+  font-weight: bold;
+  font-style: normal;
+}
+.yellow-logo {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: yellow;
+  padding-top: 30px;
+}
+
+header {
+
+}
+
+#yellow {
+  width: 100%;
+  height: 100px;
+  background-color: yellow;
+  padding: 15px;
+}
+#sign-up {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: #2B4052;
+  width: 225px;
+  height: 40px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #2E2E2E;
+  width: 100%;
+
+  text-align: center;
+  color: white;
+}
+#socials img{
+    padding: 30px 15px 30px 15px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
